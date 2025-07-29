@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@import "tailwindcss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cursor1 {
+    cursor: url('/home/kylie_nose_small.png'), auto !important;
+}
+
+.cursor2 {
+    cursor: url('/home/face1.png'), auto !important;
+}
+
+.cursor1 * {
+    cursor: url('/home/kylie_nose_small.png'), auto !important;
+}
+
+.cursor2 * {
+    cursor: url('/home/face1.png'), auto !important;
+}
+
+
+.primary {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.secondary {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.toggled {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
